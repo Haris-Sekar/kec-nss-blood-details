@@ -1,5 +1,5 @@
 <?php
-    $conn=mysqli_connect("localhost","root","","blood_details");
+    $conn=mysqli_connect("localhost","root","","blood");
     if(mysqli_connect_error())
     {
         echo "cannot connect DB";
